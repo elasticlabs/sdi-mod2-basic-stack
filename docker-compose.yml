@@ -1,0 +1,200 @@
+version: '3'
+
+services:
+  #
+  # Project reverse proxy
+  nginx-proxy:
+    image: ${COMPOSE_PROJECT_NAME}_proxy:latest
+    container_name: ${COMPOSE_PROJECT_NAME}_proxy
+    restart: unless-stopped
+    depends_on:
+      - geoserver
+    expose:
+      - "80"
+    build:
+      context: ./data/nginx-proxy
+    environment:
+      - DHPARAM_GENERATION=false
+      - VIRTUAL_PORT=80
+      - VIRTUAL_HOST=hub.ensg-sdi.docker
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      elabs-revproxy:
+        ipv4_address: 172.24.0.3
+
+  #
+  # dnsmasq config for containers
+  # dns-gen:
+  #   build: ./data/dns-gen
+  #   container_name: ${compose_project_name}_dns-gen
+  #   restart: unless-stopped
+  #   expose:
+  #     - "53:53/udp"
+  #   depends_on:
+  #     - nginx-proxy
+  #   logging:
+  #     options:
+  #       max-size: "10m"
+  #   volumes:
+  #     - dns-gen-config:/etc/
+  #     - /var/run/docker.sock:/var/run/docker.sock:ro
+  #   networks:
+  #     elabs-revproxy:
+  #       ipv4_address: 172.24.0.2 
+
+  #
+  # Portainer docker admin GUI
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: ${COMPOSE_PROJECT_NAME}_portainer
+    restart: unless-stopped
+    depends_on:
+      - nginx-proxy
+    expose:
+      - "9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer-data:/data
+    networks:
+      elabs-revproxy:
+        ipv4_address: 172.24.0.4
+  #HOMEPAGE
+  # SDI Access hub
+  homepage:
+    image: ghcr.io/benphelps/homepage:latest
+    container_name: ${COMPOSE_PROJECT_NAME}_homepage
+    restart: unless-stopped
+    depends_on:
+      - nginx-proxy
+    expose:
+      - "3000"
+    volumes:
+      - ./data/homepage:/app/config
+      - homepage-public:/app/public
+    networks:
+      elabs-revproxy:
+        ipv4_address: 172.24.0.5
+    #
+  # File browser
+  # See https://github.com/hurlenko/filebrowser-docker for more information
+  filebrowser:
+    image: hurlenko/filebrowser
+    container_name: ${COMPOSE_PROJECT_NAME}_filebrowser
+    restart: unless-stopped
+    environment:
+      - PUID=$(id -u)
+      - PGID=$(id -g)
+      - FB_BASEURL=/data
+      # The list of avalable options can be found here : https://filebrowser.org/cli/filebrowser#options.
+    expose:
+      - "443:8080"
+    volumes:
+      - ./data/filebrowser/filebrowser.db:/database/filebrowser.db
+      - ./data/filebrowser/config:/config/
+      - fichiers-filebrowser:/data/fichiers-perso
+      # From here legacy services volumes
+      - ./data/geoserver:/data/geoserver_data
+      - geoserver-data:/data/geoserver-data
+      - jupyter_content:/data/jupyter
+    networks:
+      elabs-revproxy:
+        ipv4_address: 172.24.0.6
+
+  geoserver:
+    image: kartoza/geoserver:${GS_VERSION}
+    volumes:
+      - geoserver-data:/opt/geoserver/data_dir
+      - fichiers-filebrowser:/opt/geoserver/data_dir/filebrowser
+    restart: on-failure
+    environment:
+      - GEOSERVER_ADMIN_PASSWORD=${GEOSERVER_ADMIN_PASSWORD}
+      - GEOSERVER_ADMIN_USER=${GEOSERVER_ADMIN_USER}
+      - INITIAL_MEMORY=${INITIAL_MEMORY}
+      - MAXIMUM_MEMORY=${MAXIMUM_MEMORY}
+      - GEOSERVER_DATA_DIR=${GEOSERVER_DATA_DIR}
+      - GEOWEBCACHE_CACHE_DIR=${GEOWEBCACHE_CACHE_DIR}
+      - ROOT_WEBAPP_REDIRECT=${ROOT_WEBAPP_REDIRECT}
+      - TOMCAT_EXTRAS=${TOMCAT_EXTRAS}
+      - SAMPLE_DATA=${SAMPLE_DATA}
+      # Extensions set to be installed
+      - STABLE_EXTENSIONS=${STABLE_EXTENSIONS}
+      - COMMUNITY_EXTENSIONS=${COMMUNITY_EXTENSIONS}
+    expose:
+      - "8080"
+    depends_on:
+        db:
+          condition: service_healthy
+    networks:
+      elabs-revproxy:
+        ipv4_address: 172.24.0.10
+
+  db:
+    image: kartoza/postgis:${POSTGIS_VERSION_TAG}
+    volumes:
+      - geo-db-data:/var/lib/postgresql
+    ports:
+      - ${POSTGRES_PORT}:5432
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASS=${POSTGRES_PASS}
+      - ALLOW_IP_RANGE=${ALLOW_IP_RANGE}
+      - FORCE_SSL=TRUE
+    restart: on-failure
+    healthcheck:
+      test: "PGPASSWORD=${POSTGRES_PASS} pg_isready -h 127.0.0.1 -U ${POSTGRES_USER} -d ${POSTGRES_DB}"
+    networks:
+      elabs-revproxy:
+        ipv4_address: 172.24.0.7
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: ${COMPOSE_PROJECT_NAME}_pgadmin
+    restart: unless-stopped
+    expose:
+      - "5050:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=${PGADMIN_MAIL}
+      - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_PW}
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      elabs-revproxy:
+        ipv4_address: 172.24.0.8
+
+  jupyter:
+    container_name: geopython-workshop-jupyter
+    image : geopython/geopython-workshop:latest
+    build:
+      context: ./data/jupyter
+    expose:
+      - "8888"
+    volumes:
+
+      - jupyter-data:/home/jovyan
+      - jupyter_content:/jupyter/content:rw
+    command: start-notebook.py --NotebookApp.token=
+    networks:
+      elabs-revproxy:
+        ipv4_address: 172.24.0.9
+        
+volumes:
+  vhost.d:
+  portainer-data:
+  dns-gen-config:
+  homepage-public:
+  jupyter-data:
+  pgadmin_data:
+  geo-db-data:
+  geoserver-data:
+  fichiers-filebrowser:
+  jupyter_content:
+
+networks:
+  elabs-revproxy:
+    name: ${APPS_NETWORK}
+    external: true
+    ipam:
+      config:
+        - subnet: "172.24.0.0/16"

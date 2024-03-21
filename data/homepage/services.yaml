@@ -38,34 +38,27 @@
         # (Optional) ping : works by sending a HTTP HEAD request to the server
         ping: http://hub.ensg-sdi.docker
 
-#    - PGAdmin: 
-#        icon: pgadmin.png
-#        href: http://ensg-sdi.docker/pgadmin
-#        description: PostGIS ADministration Web GUI.
-#        # (Optional) ping : works by sending a HTTP HEAD request to the server
-#        ping: https://ensg-sdi.docker
+    - PGAdmin: 
+       icon: pgadmin.png
+       href: http://hub.ensg-sdi.docker/pgadmin
+       description: PostGIS ADministration Web GUI.
+       # (Optional) ping : works by sending a HTTP HEAD request to the server
+       ping: http://hub.ensg-sdi.docker
 #
-#    - Geoserver: 
-#        icon: maptiler.png
-#        href: http://ensg-sdi.docker/geoserver
-#        description: Geoserver is a versatile FOSS OGW Web services implementation and map server.
-#        # (Optional) ping : works by sending a HTTP HEAD request to the server
-#        ping: https://ensg-sdi.docker
-#
-#    - GeoWebCache: 
-#        icon: maptiler.png
-#        href: http://ensg-sdi.docker/geoserver/gwc
-#        description: Geo web cache is Geoserver tiles server.
-#        # (Optional) ping : works by sending a HTTP HEAD request to the server
-#        ping: https://ensg-sdi.docker
-#
-#    - Jupyterlab: 
-#        icon: jupyter.png
-#        href: http://ensg-sdi.docker/datascience
-#        description: JupyterLab manages geo datascience python based data science works.
-#        # (Optional) ping : works by sending a HTTP HEAD request to the server
-#        ping: https://ensg-sdi.docker
-#
+    - Geoserver: 
+       icon: maptiler.png
+       href: http://hub.ensg-sdi.docker/geoserver
+       description: Geoserver is a versatile FOSS OGW Web services implementation and map server.
+       # (Optional) ping : works by sending a HTTP HEAD request to the server
+       ping: http://hub.ensg-sdi.docker
+
+    - Jupyterlab: 
+       icon: jupyter.png
+       href: http://data.ensg-sdi.docker
+       description: JupyterLab manages geo datascience python based data science works.
+       # (Optional) ping : works by sending a HTTP HEAD request to the server
+       ping: http://data.ensg-sdi.docker
+
 #    - pyGeoAPI: 
 #        icon: python.png
 #        href: http://api.ensg-sdi.docker

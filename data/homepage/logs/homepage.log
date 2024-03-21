@@ -683,3 +683,1989 @@
     hostname: 'api.ensg-sdi.docker'
   }
 ]
+[2024-03-20T15:04:40.356Z] error: bad indentation of a mapping entry (41:4)
+
+ 38 |         # (Optional) ping : works  ...
+ 39 |         ping: http://hub.ensg-sdi. ...
+ 40 | 
+ 41 |    - PGAdmin: 
+---------^
+ 42 |        icon: pgadmin.png
+ 43 |        href: http://ensg-sdi.docke ...
+[2024-03-20T15:04:40.359Z] error: bad indentation of a mapping entry (41:4)
+
+ 38 |         # (Optional) ping : works  ...
+ 39 |         ping: http://hub.ensg-sdi. ...
+ 40 | 
+ 41 |    - PGAdmin: 
+---------^
+ 42 |        icon: pgadmin.png
+ 43 |        href: http://ensg-sdi.docke ...
+[2024-03-20T15:04:40.376Z] error: Failed to load services.yaml, please check for errors
+[2024-03-20T15:04:40.376Z] error: YAMLException: bad indentation of a mapping entry (41:4)
+
+ 38 |         # (Optional) ping : works  ...
+ 39 |         ping: http://hub.ensg-sdi. ...
+ 40 | 
+ 41 |    - PGAdmin: 
+---------^
+ 42 |        icon: pgadmin.png
+ 43 |        href: http://ensg-sdi.docke ...
+[2024-03-20T15:04:40.399Z] error: Failed to load services.yaml, please check for errors
+[2024-03-20T15:04:40.399Z] error: YAMLException: bad indentation of a mapping entry (41:4)
+
+ 38 |         # (Optional) ping : works  ...
+ 39 |         ping: http://hub.ensg-sdi. ...
+ 40 | 
+ 41 |    - PGAdmin: 
+---------^
+ 42 |        icon: pgadmin.png
+ 43 |        href: http://ensg-sdi.docke ...
+[2024-03-20T15:04:40.726Z] error: Failed to load services.yaml, please check for errors
+[2024-03-20T15:04:40.726Z] error: YAMLException: bad indentation of a mapping entry (41:4)
+
+ 38 |         # (Optional) ping : works  ...
+ 39 |         ping: http://hub.ensg-sdi. ...
+ 40 | 
+ 41 |    - PGAdmin: 
+---------^
+ 42 |        icon: pgadmin.png
+ 43 |        href: http://ensg-sdi.docke ...
+[2024-03-20T15:05:35.634Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:05:35.642Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:05:35.651Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:05:35.652Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:05:40.654Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:05:40.655Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:05:40.659Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:05:40.661Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:05:52.498Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:05:52.499Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:05:52.509Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:05:52.510Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:05:55.514Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:05:55.516Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:05:55.529Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:05:55.530Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:06:05.592Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:06:05.593Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:06:05.600Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:06:05.601Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:06:10.604Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:06:10.605Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:06:10.610Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:06:10.611Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:07:05.586Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:07:05.587Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:07:05.596Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:07:05.596Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:07:10.599Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:07:10.599Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:07:10.607Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:07:10.607Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:07:45.723Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:07:45.724Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:07:45.733Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:07:45.733Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:07:50.736Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:07:50.737Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:07:50.742Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:07:50.743Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:08:20.752Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:08:20.753Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:08:20.761Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:08:20.761Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:08:20.768Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:08:20.768Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:08:20.773Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:08:20.774Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:11:30.868Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:11:30.868Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:11:30.873Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:11:30.873Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:11:30.876Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:11:30.876Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:11:30.883Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:11:30.883Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:14:37.725Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:14:37.726Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:14:37.729Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:14:37.729Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:14:37.736Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:14:37.736Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:14:37.738Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:14:37.738Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:14:52.022Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:14:52.022Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:14:52.026Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:14:52.027Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:14:52.031Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:14:52.031Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:14:52.032Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:14:52.033Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:15:22.057Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:15:22.057Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:15:22.063Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:15:22.063Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:15:22.066Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:15:22.066Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:15:22.067Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:15:22.068Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:15:32.133Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:15:32.134Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:15:32.137Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:15:32.137Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:15:32.141Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:15:32.142Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:15:32.144Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:15:32.144Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:18:56.397Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:18:56.398Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:18:57.941Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:18:57.941Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:18:57.947Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:18:57.948Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:00.485Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:00.485Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:21.386Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:21.386Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:21.390Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:21.390Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:21.394Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:21.394Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:21.396Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:21.396Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:51.428Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:51.428Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:51.435Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:51.435Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:51.439Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:51.439Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:19:51.440Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:19:51.440Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:20:21.459Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:20:21.460Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:20:21.469Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:20:21.469Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:20:21.478Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:20:21.479Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:20:21.482Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:20:21.482Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:20:51.494Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:20:51.495Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:20:51.502Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:20:51.502Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:20:51.515Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:20:51.515Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:20:51.518Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:20:51.519Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:21:21.517Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:21:21.518Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:21:21.523Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:21:21.524Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:21:21.533Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:21:21.533Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:21:21.539Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:21:21.539Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:21:51.544Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:21:51.545Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:21:51.552Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:21:51.552Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:21:51.562Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:21:51.562Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:21:51.566Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:21:51.566Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:22:21.569Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:22:21.570Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:22:21.576Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:22:21.576Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:22:21.587Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:22:21.587Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:22:21.591Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:22:21.591Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:22:50.841Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:22:50.841Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:22:50.848Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:22:50.848Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:22:50.849Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:22:50.850Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:22:50.854Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:22:50.854Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:48:49.709Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:48:49.709Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:48:49.717Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:48:49.718Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:48:49.718Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:48:49.718Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-20T15:48:49.723Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-20T15:48:49.723Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND ensg-sdi.docker
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'ensg-sdi.docker'
+  }
+]
+[2024-03-21T10:07:34.851Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:07:34.854Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:07:34.864Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:07:34.865Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:07:34.869Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:07:34.870Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:07:34.878Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:07:34.878Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:07:49.404Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:07:49.405Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:07:49.411Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:07:49.411Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:07:49.416Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:07:49.417Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:07:49.420Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:07:49.421Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:08:04.792Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:08:04.793Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:08:04.801Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:08:04.802Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:08:04.805Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:08:04.806Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:08:04.807Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:08:04.807Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:08:34.835Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:08:34.835Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:08:34.840Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:08:34.840Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:08:34.844Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:08:34.844Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:08:34.845Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:08:34.845Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:09:04.872Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:09:04.872Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:09:04.876Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:09:04.876Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:09:04.881Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:09:04.881Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:09:04.882Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:09:04.883Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:09:21.628Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:09:21.629Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:09:21.633Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:09:21.633Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:09:21.641Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:09:21.641Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:09:21.642Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:09:21.642Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:12:38.979Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:12:38.979Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:12:38.985Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:12:38.985Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:12:38.990Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:12:38.990Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:12:38.992Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:12:38.993Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:12:49.632Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:12:49.632Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:12:49.636Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:12:49.636Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:12:49.641Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:12:49.641Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:12:49.644Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:12:49.644Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:29:24.637Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:29:24.637Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:29:24.646Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:29:24.647Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:29:24.648Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:29:24.648Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:29:24.660Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T10:29:24.661Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T10:59:13.067Z] error: Failed to load services.yaml, please check for errors
+[2024-03-21T10:59:13.068Z] error: YAMLException: bad indentation of a mapping entry (48:4)
+
+ 45 |        # (Optional) ping : works b ...
+ 46 |        ping: https://ensg-sdi.docker
+ 47 | #
+ 48 |    - Geoserver: 
+---------^
+ 49 |        icon: maptiler.png
+ 50 |        href: http://ensg-sdi.docke ...
+[2024-03-21T10:59:13.721Z] error: Failed to load services.yaml, please check for errors
+[2024-03-21T10:59:13.722Z] error: YAMLException: bad indentation of a mapping entry (48:4)
+
+ 45 |        # (Optional) ping : works b ...
+ 46 |        ping: https://ensg-sdi.docker
+ 47 | #
+ 48 |    - Geoserver: 
+---------^
+ 49 |        icon: maptiler.png
+ 50 |        href: http://ensg-sdi.docke ...
+[2024-03-21T10:59:14.481Z] error: Failed to load services.yaml, please check for errors
+[2024-03-21T10:59:14.482Z] error: YAMLException: bad indentation of a mapping entry (48:4)
+
+ 45 |        # (Optional) ping : works b ...
+ 46 |        ping: https://ensg-sdi.docker
+ 47 | #
+ 48 |    - Geoserver: 
+---------^
+ 49 |        icon: maptiler.png
+ 50 |        href: http://ensg-sdi.docke ...
+[2024-03-21T11:00:04.835Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:04.838Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:04.850Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:04.850Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:04.853Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:04.853Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:04.858Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:04.858Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:05.119Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:05.120Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:05.125Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:05.126Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:05.137Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:05.137Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:05.138Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:05.138Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:05.142Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:05.142Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:05.148Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:05.149Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:35.121Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:35.122Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:35.125Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:35.126Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:35.130Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:35.131Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:35.136Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:35.137Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:35.138Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:35.138Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:35.139Z] error: <httpProxy> Error calling https://ensg-sdi.docker/...
+[2024-03-21T11:00:35.139Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.404Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.404Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.410Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.410Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.415Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.415Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.419Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.419Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.420Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.420Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.424Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.424Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.733Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.733Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.740Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.741Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.748Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.749Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.754Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.754Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.757Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.757Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:39.773Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:39.773Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:42.686Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:42.686Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:42.690Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:42.691Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:42.694Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:42.694Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:42.701Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:42.701Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:42.702Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:42.703Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:42.703Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:42.703Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:45.796Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:45.796Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:45.800Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:45.800Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:45.806Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:45.806Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:45.809Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:45.809Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:45.814Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:45.814Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:45.814Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:45.815Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:50.490Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:50.491Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:50.495Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:50.495Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:50.498Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:50.498Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:50.504Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:50.504Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:50.505Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:50.505Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]
+[2024-03-21T11:00:50.506Z] error: <httpProxy> Error calling https://hub.ensg-sdi.docker/...
+[2024-03-21T11:00:50.506Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.3:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.3',
+    port: 443
+  }
+]

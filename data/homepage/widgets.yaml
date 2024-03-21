@@ -11,7 +11,7 @@
 # You can optionally not pass a latitude and longitude and the widget will use
 # your current location (requires a secure context, eg. HTTPS).
 - openmeteo:
-    label: Issy-les-Moulineaux # optional
+    label: Champs-sur-Marne # optional
     latitude: 48.82
     longitude: 2.28
     timezone: Europe/Paris # optional
